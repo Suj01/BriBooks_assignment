@@ -43,7 +43,7 @@ const Page = ({ pageIndex, story, pageImage, fontFamily, fontColor, position }) 
 
 export const Pages = () => {
     const [pages, setPages] = useState(
-        Array.from({ length: 4 }, () => ({
+        Array.from({ length: 10 }, () => ({
             story: '',
             pageImage: '',
             fontFamily: fontFamilies[0],
